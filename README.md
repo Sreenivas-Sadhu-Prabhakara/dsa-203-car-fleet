@@ -12,6 +12,13 @@ The physics collapses into one scalar per car: its *solo* arrival time `(target 
 
 **Complexity:** O(n log n) for the sort, O(1) beyond the index slice.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
